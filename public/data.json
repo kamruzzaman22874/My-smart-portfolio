@@ -1,0 +1,39 @@
+[
+		{
+			"id": 1,
+			
+			"details": 
+				{
+					"title": "CAR-SELL",
+					"text1": "This website is for Car Sell service evaluation.",
+					"text2": "The customer can choice any car and buy.",
+					"text3": "This website is fully responsive and loads quick fully authorized."
+				}
+			
+		},
+		{
+			"id": 2,
+			
+			"details": 
+				{
+					"title": "CAR-SELL",
+					"text1": "This website is for Car Sell service evaluation.",
+					"text2": "The customer can choice any car and buy.",
+					"text3": "This website is fully responsive and loads quick fully authorized."
+				}
+			
+		},
+		{
+			"id": 3,
+			
+			"details": 
+				{
+					"title": "CAR-SELL",
+					"text1": "This website is for Car Sell service evaluation.",
+					"text2": "The customer can choice any car and buy.",
+					"text3": "This website is fully responsive and loads quick fully authorized."
+				}
+			
+		}
+		
+	]

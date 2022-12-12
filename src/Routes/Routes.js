@@ -47,7 +47,7 @@ const Routes = () => {
 					},
 					{
 						path: '/project/:id',
-						element: <Details></Details>,
+						element: <Details></Details>
 					},
 					{
 						path: '/hireme',
