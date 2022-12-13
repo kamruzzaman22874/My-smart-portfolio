@@ -25,7 +25,7 @@ const Hero = () => {
 						<h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600'>
 							Front-End Developer
 						</h4>
-						<button className='bg-cyan-600 font-semibold text-white md: mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 mt-6'>
+						<button className='bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2 mt-6'>
 							Contact Me
 						</button>
 

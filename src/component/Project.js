@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 const Project = () => {
 	const projects = [
 		{
-			id: 1,
 			img: Carsell,
 			name: 'Car Sell',
 			github_client_link:
@@ -19,18 +18,9 @@ const Project = () => {
 			github_server_link:
 				'https://github.com/kamruzzaman22874/Sell-Car-Server-Repo',
 			live_link: 'https://old-car-390a9.web.app/',
-			details: [
-				{
-					title: 'CAR-SELL',
-					text1: 'This website is for Car Sell service evaluation.',
-					text2: 'The customer can choice any car and buy.',
-					text3:
-						'This website is fully responsive and loads quick fully authorized.',
-				},
-			],
+			button: '/detailsOne',
 		},
 		{
-			id: 2,
 			img: Spaservice,
 			name: 'Spa Service',
 			github_client_link:
@@ -38,18 +28,9 @@ const Project = () => {
 			github_server_link:
 				'https://github.com/kamruzzaman22874/Spa-Service-Server-Repo',
 			live_link: 'https://assignment11-spa.web.app/',
-			details: [
-				{
-					title: 'CAR-SELL',
-					text1: 'This website is for Car Sell service evaluation.',
-					text2: 'The customer can choice any car and buy.',
-					text3:
-						'This website is fully responsive and loads quick fully authorized.',
-				},
-			],
+			button: '/detailsTwo',
 		},
 		{
-			id: 3,
 			img: Learncode,
 			name: 'Learn Coding',
 			github_client_link:
@@ -57,19 +38,11 @@ const Project = () => {
 			github_server_link:
 				'https://github.com/kamruzzaman22874/Learn-Coding-Repo',
 			live_link: 'https://assignment10-authenticat-1b32f.web.app/',
-			details: [
-				{
-					title: 'CAR-SELL',
-					text1: 'This website is for Car Sell service evaluation.',
-					text2: 'The customer can choice any car and buy.',
-					text3:
-						'This website is fully responsive and loads quick fully authorized.',
-				},
-			],
+			button: '/detailsThree',
 		},
 	];
 	return (
-		<section id='project' className='py-10 text-white'>
+		<section className='py-10 text-white'>
 			<div className='text-center'>
 				<h3 className='text-4xl font-semibold'>
 					My <span className='text-cyan-600'>Projects</span>
@@ -128,9 +101,9 @@ const Project = () => {
 											Live Demo
 										</Link>
 										<Link
-											to={`/project/${project_info.id}`}
-											className='text-cyan-600 bg-gray-800 px-2 py-1 inline-block'
-											data={'project_info'}
+											to={project_info.button}
+											target='_blank'
+											className='text-cyan-600  bg-gray-800 px-2 py-6 inline-block'
 										>
 											Details
 										</Link>

@@ -7,6 +7,9 @@ import Hero from '../component/Hero';
 import Hireme from '../component/Hireme';
 import Home from '../component/Home';
 import Project from '../component/Project';
+import CarSell from '../component/ProjectDetails/CarSell';
+import LearnCode from '../component/ProjectDetails/LearnCode';
+import SpaService from '../component/ProjectDetails/SpaService';
 import Skills from '../component/Skills';
 import Main from './Main/Main';
 
@@ -46,8 +49,20 @@ const Routes = () => {
 						element: <Blog></Blog>,
 					},
 					{
-						path: '/project/:id',
-						element: <Details></Details>
+						path: '/details',
+						element: <Details></Details>,
+					},
+					{
+						path: '/detailsOne',
+						element: <CarSell></CarSell>,
+					},
+					{
+						path: '/detailsTwo',
+						element: <SpaService></SpaService>,
+					},
+					{
+						path: '/detailsThree',
+						element: <LearnCode></LearnCode>,
 					},
 					{
 						path: '/hireme',
