@@ -18,8 +18,9 @@ const CarSell = () => {
 					title: 'CAR-SELL',
 					text1: 'This website is for Car Sell service evaluation.',
 					text2: 'The customer can choice any car and buy.',
-					text3:
-						'This website is fully responsive and loads quick fully authorized.',
+					<text3:></text3:>'This website is fully responsive and loads quick fully authorized.',
+					text4: 'npm i react-router-dom.',
+					text5: 'npm install react-hook-form',
 				},
 			],
 		};
@@ -37,8 +38,10 @@ const CarSell = () => {
 						</h2>
 						<p>Project Details: </p> <br />
 						<p>1. {projects.details[0].text1} </p>
-						<p>1. {projects.details[0].text2} </p>
-						<p>1. {projects.details[0].text2} </p>
+						<p>2. {projects.details[0].text2} </p>
+						<p>3. {projects.details[0].text2} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
@@ -55,6 +58,8 @@ const CarSell = () => {
 						<p>1. {projects.details[0].text1} </p>
 						<p>2. {projects.details[0].text2} </p>
 						<p>3. {projects.details[0].text2} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
@@ -67,10 +72,12 @@ const CarSell = () => {
 						<h2 className='card-title'>
 							Project Name : {projects.details[0].title}
 						</h2>
-						<p>Project Details: </p> <br />
+					<p>Project Details: </p> <br />
 						<p>1. {projects.details[0].text1} </p>
 						<p>2. {projects.details[0].text2} </p>
 						<p>3. {projects.details[0].text2} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 			</section>

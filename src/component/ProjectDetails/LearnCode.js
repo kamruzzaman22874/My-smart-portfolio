@@ -18,6 +18,8 @@ const LearnCode = () => {
 					text1: 'This website build for the learning purpose.',
 					text2:'Learner choose the any learning part by programming language.',
 					text3:'This website is fully responsive and loads quick fully authorized.',
+					text4: 'The Learn Coding teach students about Programming Language.',
+					text5: 'This website deploy the server site by the vercel.',
 				},
 			],
 		};
@@ -33,8 +35,10 @@ const LearnCode = () => {
 						</h2>
 						<p>Project Details: </p> <br />
 						<p>1. {projects.details[0].text1} </p>
-						<p>1. {projects.details[0].text2} </p>
-						<p>1. {projects.details[0].text2} </p>
+						<p>2. {projects.details[0].text2} </p>
+						<p>3. {projects.details[0].text3} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
@@ -47,8 +51,10 @@ const LearnCode = () => {
 						</h2>
 						<p>Project Details: </p> <br />
 						<p>1. {projects.details[0].text1} </p>
-						<p>1. {projects.details[0].text2} </p>
-						<p>1. {projects.details[0].text2} </p>
+						<p>2. {projects.details[0].text2} </p>
+						<p>3. {projects.details[0].text3} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
@@ -61,8 +67,10 @@ const LearnCode = () => {
 						</h2>
 						<p>Project Details: </p> <br />
 						<p>1. {projects.details[0].text1} </p>
-						<p>1. {projects.details[0].text2} </p>
-						<p>1. {projects.details[0].text2} </p>
+						<p>2. {projects.details[0].text2} </p>
+						<p>3. {projects.details[0].text3} </p>
+						<p>4. {projects.details[0].text4} </p>
+						<p>5. {projects.details[0].text5} </p>
 					</div>
 				</div>
 			</section>

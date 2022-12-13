@@ -68,6 +68,8 @@ const SpaService = () => {
 						<p>1. {projects.details[0].text1} </p>
 						<p>2. {projects.details[0].text2} </p>
 						<p>3. {projects.details[0].text2} </p>
+						<p>4. {projects.details[0].text2} </p>
+						<p>5. {projects.details[0].text2} </p>
 					</div>
 				</div>
 			</section>
