@@ -18,7 +18,7 @@ const CarSell = () => {
 					title: 'CAR-SELL',
 					text1: 'This website is for Car Sell service evaluation.',
 					text2: 'The customer can choice any car and buy.',
-					<text3:></text3:>'This website is fully responsive and loads quick fully authorized.',
+					text3:'This website is fully responsive and loads quick fully authorized.',
 					text4: 'npm i react-router-dom.',
 					text5: 'npm install react-hook-form',
 				},
