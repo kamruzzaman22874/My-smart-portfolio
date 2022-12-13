@@ -29,7 +29,7 @@ const CarSell = () => {
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<div className=''>
 						<figure>
-							<img src={carsell1} alt='Shoes' />
+							<img src={carsell1} alt='img' />
 						</figure>
 					</div>
 					<div className='card-body'>
@@ -47,7 +47,7 @@ const CarSell = () => {
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<div className=''>
 						<figure>
-							<img src={carsell2} alt='Shoes' />
+							<img src={carsell2} alt='img' />
 						</figure>
 					</div>
 					<div className='card-body'>
@@ -65,7 +65,7 @@ const CarSell = () => {
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<div className=''>
 						<figure>
-							<img src={carsell} alt='Shoes' />
+							<img src={carsell} alt='img' />
 						</figure>
 					</div>
 					<div className='card-body'>

@@ -27,7 +27,7 @@ const LearnCode = () => {
 			<section className='grid grid-cols-1 lg:grid-cols-3'>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={leanrCode1} alt='Shoes' />
+						<img src={leanrCode1} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>
@@ -43,7 +43,7 @@ const LearnCode = () => {
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={leanrCode} alt='Shoes' />
+						<img src={leanrCode} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>
@@ -59,7 +59,7 @@ const LearnCode = () => {
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={leanrCode2} alt='Shoes' />
+						<img src={leanrCode2} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>

@@ -26,7 +26,7 @@ const SpaService = () => {
 			<section className='grid grid-cols-1 lg:grid-cols-3'>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={spa} alt='Shoes' />
+						<img src={spa} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>
@@ -42,7 +42,7 @@ const SpaService = () => {
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={spa2} alt='Shoes' />
+						<img src={spa2} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>
@@ -58,7 +58,7 @@ const SpaService = () => {
 				</div>
 				<div className='card w-96 bg-base-500 shadow-xl mb-4'>
 					<figure>
-						<img src={spa1} alt='Shoes' />
+						<img src={spa1} alt='img' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>
